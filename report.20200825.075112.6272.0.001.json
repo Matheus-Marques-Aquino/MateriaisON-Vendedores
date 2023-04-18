@@ -1,0 +1,433 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200825.075112.6272.0.001.json",
+    "dumpEventTime": "2020-08-25T07:51:12Z",
+    "dumpEventTimeStamp": "1598352672716",
+    "processId": 6272,
+    "cwd": "C:\\projects\\materiaison_vendors",
+    "commandLine": [
+      "C:\\Users\\mathe\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.10.2\\mt-os.windows.x86_64\\\\dev_bundle\\bin\\node.exe",
+      "--no-wasm-code-gc",
+      "C:\\Users\\mathe\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.10.2\\mt-os.windows.x86_64\\\\tools\\index.js",
+      "run"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 13485046,
+        "nice": 0,
+        "sys": 11790406,
+        "idle": 158500593,
+        "irq": 1872171
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 10937859,
+        "nice": 0,
+        "sys": 7811734,
+        "idle": 165026265,
+        "irq": 306765
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 23845437,
+        "nice": 0,
+        "sys": 9671531,
+        "idle": 150258890,
+        "irq": 136093
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 11959281,
+        "nice": 0,
+        "sys": 6503359,
+        "idle": 165313218,
+        "irq": 81734
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 16474625,
+        "nice": 0,
+        "sys": 8293578,
+        "idle": 159007656,
+        "irq": 89640
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 12248015,
+        "nice": 0,
+        "sys": 6697203,
+        "idle": 164830609,
+        "irq": 62578
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 16413421,
+        "nice": 0,
+        "sys": 7731375,
+        "idle": 159631031,
+        "irq": 68062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 16881125,
+        "nice": 0,
+        "sys": 7746109,
+        "idle": 159148593,
+        "irq": 53390
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "fc:aa:14:fc:63:72",
+        "address": "2804:14d:78d5:8b19:14bc:5a84:28a2:5de0",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "fc:aa:14:fc:63:72",
+        "address": "2804:14d:78d5:8b19:c5ca:36ef:2f78:25b3",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "fc:aa:14:fc:63:72",
+        "address": "fe80::14bc:5a84:28a2:5de0",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 14
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "fc:aa:14:fc:63:72",
+        "address": "192.168.0.2",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-1BTQBH3"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7f96c19f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff7f96c5e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff7f96c4dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff7f97c34cb",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff7f9fd9f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7f9fc2021",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff7f9e8e57c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7f9e997d0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff7f9e962f4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff7f9e8bb13",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff7f9e8a184",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff7f9eab36d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff7f9c10c51",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff7fa424ddd",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x0000033aecd34a97",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2153840640,
+    "totalCommittedMemory": 2153840640,
+    "usedMemory": 2140560056,
+    "availableMemory": 46216272,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1047456,
+        "used": 161688,
+        "available": 885768
+      },
+      "old_space": {
+        "memorySize": 1932410880,
+        "committedMemory": 1932410880,
+        "capacity": 1925704464,
+        "used": 1925396072,
+        "available": 308392
+      },
+      "code_space": {
+        "memorySize": 5672960,
+        "committedMemory": 5672960,
+        "capacity": 4891296,
+        "used": 4891296,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 3411968,
+        "committedMemory": 3411968,
+        "capacity": 2381280,
+        "used": 2381280,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 209936384,
+        "committedMemory": 209936384,
+        "capacity": 207694128,
+        "used": 207694128,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 6517.11,
+    "kernelCpuSeconds": 20082.7,
+    "cpuConsumptionPercent": 61.781,
+    "maxRss": 2034065408,
+    "pageFaults": {
+      "IORequired": 9335105,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 54258,
+      "writes": 40444
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Projects\\MateriaisON_Vendors",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Users\\mathe\\AppData\\Local\\Android\\Sdk",
+    "ANDROID_SDK_ROOT": "C:\\Users\\mathe\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\mathe\\AppData\\Roaming",
+    "BABEL_CACHE_DIR": "C:\\Users\\mathe\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.10.2\\mt-os.windows.x86_64\\\\.babel-cache",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132368716178650281",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-1BTQBH3",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "HOME": "C:\\Users\\mathe",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\mathe",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_251",
+    "LOCALAPPDATA": "C:\\Users\\mathe\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-1BTQBH3",
+    "MAIL_URL": "smtps://AKIAS5AE4XHRZN7R3K5I:BOY5Wu6YbUbfJpfXKBRYUtpw1dGiJPTO7L5iKkkxyPXJ@email-smtp.us-east-1.amazonaws.com:465",
+    "METEOR_INSTALLATION": "C:\\Users\\mathe\\AppData\\Local\\.meteor\\",
+    "MONGO_URL": "mongodb+srv://matheus:Mk!190119@cluster0-3o8rl.mongodb.net/vendorTeste?retryWrites=true&w=majority",
+    "NODE_ENV": "development",
+    "NODE_PATH": "C:\\Users\\mathe\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.10.2\\mt-os.windows.x86_64\\\\dev_bundle\\lib\\node_modules",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\mathe\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\mathe\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\gradle\\bin;C:\\Users\\mathe\\AppData\\Local\\Android\\Sdk\\tools;C:\\Users\\mathe\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\Git\\bin\\git.exe;C:\\ProgramData\\chocolatey\\bin;;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Users\\mathe\\AppData\\Roaming\\npm;C:\\Users\\mathe\\AppData\\Local\\.meteor;C:\\Users\\mathe\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mathe\\AppData\\Local\\Yarn\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 60 Stepping 3, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3c03",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\mathe\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "PythonPath": "C:\\Python26;C:\\Python26\\DLLs;C:\\Python26\\Lib;C:\\Python26\\Lib\\lib-tk;",
+    "ROOT_URL": "http://materiaison.meteorapp.com:80",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\mathe\\AppData\\Local\\Temp",
+    "TEST_METADATA": "{}",
+    "TMP": "C:\\Users\\mathe\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-1BTQBH3",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-1BTQBH3",
+    "USERNAME": "mathe",
+    "USERPROFILE": "C:\\Users\\mathe",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Users\\mathe\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.10.2\\mt-os.windows.x86_64\\dev_bundle\\bin\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "\\\\?\\C:\\Users\\mathe\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.10.2\\mt-os.windows.x86_64\\dev_bundle\\lib\\node_modules\\fibers\\bin\\",
+    "\\\\?\\C:\\Users\\mathe\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.10.2\\mt-os.windows.x86_64\\dev_bundle\\lib\\node_modules\\sqlite3\\lib",
+    "\\\\?\\C:\\Users\\mathe\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.10.2\\mt-os.windows.x86_64\\dev_bundle\\lib\\node_modules\\pathwatcher",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}

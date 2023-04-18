@@ -1,0 +1,31 @@
+.HeaderLogin:hover{
+    color: #007AF3 !important;
+    cursor: pointer !important;    
+}
+.HeaderLogin:hover > .HeaderLoginIcon{
+    background-color: #007AF3 !important;
+}
+.HeaderLogin:hover > .HeaderLoginText{
+    color: #007AF3 !important;
+}
+.HeaderLogout:hover{
+    color: #FF1414 !important;
+    cursor: pointer !important;    
+}
+.HeaderLogout:hover > .HeaderLogoutIcon{
+    background-color: #FF1414 !important;
+}
+.HeaderLogout:hover > .HeaderLogoutText{
+    color: #FF1414 !important;
+}
+.HeaderPerfil:hover{
+    color: #FF1414 !important;
+    cursor: pointer !important;
+    
+}
+.HeaderPerfil:hover > .HeaderPerfilIcon{
+    background-color: #FF7000 !important;
+}
+.HeaderPerfil:hover > .HeaderPerfilText{
+    color: #FF1414 !important;
+}

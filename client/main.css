@@ -1,0 +1,113 @@
+html{
+  width: 100%;
+  height: 100%; 
+}
+body{
+  font-family: Chivo, Tahoma, Sans-serif; 
+  width:100%;
+  height: 100%;  
+  min-height:100%; 
+  margin: 0px;
+}
+*:focus {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  box-shadow: 0 0 0 30px white inset !important;
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.mainContainer {
+  width: 100%;
+  height: 100%;
+}
+input {
+  -webkit-appearance: none;
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes blinker {
+  0% { background-color: #FF700070; }
+  50% { background-color: white; }
+  100% { background-color: #FF700070; }
+}
+.tableProductTitle{
+  border: 1px solid #FF7000;
+  border-collapse: collapse;
+  height: 40px;
+  line-height: 40px;
+  color: #555;
+  font-size: 13px;
+  text-align: left;
+  padding: 0px;
+  background-color: #FF700020;
+  text-align:center
+}
+.tableProduct{
+  border: 1px solid #FF7000;
+  border-collapse: collapse;
+  min-height: 80px;
+  color: #555;
+  font-size: 12px;
+  text-align: left;
+  padding: 0px;
+  font-weight: normal;
+  line-height: 14px;
+  background-color: white;
+  text-align:center
+}
+.select_last {
+  border-bottom: 0px !important;
+}
+.fade_out {
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+.item_hover{
+  background-color: #F7F7F7 !important;
+}
+textarea.whiteInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  opacity: 1; /* Firefox */
+}
+textarea.redInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 15px;
+  text-align: center;
+  color: #FF1414;
+  opacity: 1; /* Firefox */
+}
+textarea{
+  background-color: transparent;
+}
+.customScroll::-webkit-scrollbar {
+  width: 8px;  
+  margin: 0 1px;  
+}
+.customScroll::-webkit-scrollbar-track {
+  background: transparent; 
+}
+.customScroll::-webkit-scrollbar-thumb {
+  background: #BBB; 
+  border-radius: 5px;
+}

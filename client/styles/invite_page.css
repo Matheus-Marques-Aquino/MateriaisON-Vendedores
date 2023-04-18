@@ -1,0 +1,363 @@
+@media screen and (max-width: 840px) {    
+    .InvitePage_profitDiv {
+        display: block !important;
+    } 
+    .InvitePage_profitTitle {
+        text-align: center;
+    }    
+    .InvitePage_profitText {
+        text-align: justify !important;
+    }
+    .InvitePage_profitButton {
+        font-size: 17px !important;
+        margin: 20px auto 20px auto !important;
+    }
+    .InvitePage_appScreen {
+        margin: 20px auto 15px auto !important;
+    }
+    .InvitePage_infographDiv {
+
+    }
+    .InvitePage_infographImg {
+
+    }
+    .InvitePage_infographText {
+        width: 400px !important;
+        font-size: 24px !important;
+    }
+}
+@media screen and (max-width: 740px) {
+    .InvitePage_bannerMain, .InvitePage_bannerPart1, .InvitePage_bannerPart2, .InvitePage_bannerPart3 {
+        height: 160px !important;
+    }   
+    .InvitePage_bannerMain {
+        width: 625px !important;
+    } 
+    .InvitePage_bannerPart2 {
+        width: 83px !important;
+    }
+    .InvitePage_infographText {
+        width: 320px !important;
+        font-size: 22px !important;
+    }
+    .InvitePage_withUsMainDiv {
+        display: block !important;
+    }
+    .InvitePage_withUsEndDiv {
+        margin: 0 auto !important;
+        height: 60px !important;
+        padding-top: 0px !important;
+        padding-bottom: 15px !important;
+    }
+}
+@media screen and (max-width: 670px) {
+    .InvitePage_bannerMain, .InvitePage_bannerPart1, .InvitePage_bannerPart2, .InvitePage_bannerPart3 {
+        height: 140px !important;
+    }   
+    .InvitePage_bannerComponet {
+        height: 155px !important;
+    }
+    .InvitePage_bannerMain {
+        width: 565px !important;
+    } 
+    .InvitePage_bannerPart1 {
+        width: 490px !important;
+    }
+    .InvitePage_bannerPart2 {
+        width: 74px !important;
+        left: 525px !important;
+    }
+    .InvitePage_infographDiv {
+        display: block !important;
+    }
+    .InvitePage_infographImg {
+        margin: 0 auto !important;
+    }
+    .InvitePage_infographText {
+        margin: auto !important;
+        padding-top: 0px !important;
+        padding-bottom: 15px !important;
+        width: 320px !important;
+        font-size: 22px !important;
+    }   
+}
+@media screen and (max-width: 640px) { 
+    .InvitePage_bannerMain, .InvitePage_bannerPart1, .InvitePage_bannerPart2, .InvitePage_bannerPart3 {
+        height: 140px !important;
+        padding-left: 0px !important;
+    }
+    .InvitePage_bannerComponet {
+        height: 130px !important;
+    }
+    .InvitePage_bannerMain {
+        width: 480px !important;
+        padding-left: 0px !important;
+    }
+    .InvitePage_bannerPart1 {
+        width: 415px !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart2 {
+        width: 73px !important;
+        left: 415px !important;
+    }
+    .InvitePage_bannerPart3 {
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart4 {
+        padding-left: 0px !important;
+        width: 245px !important;
+    }
+    .InvitePage_bannerTitle {
+        font-size: 20px !important;
+    }
+    .InvitePage_bannerText {
+        font-size: 14px !important;
+    }
+    .InvitePage_stepsTitle{
+        font-size: 30px !important;
+        padding-top: 10px !important;
+        height: 80px !important;
+    }
+    .InvitePage_steps {
+        display: none !important;
+    }
+    .InvitePage_steps2 {
+        display: flex !important;
+    }
+    .InvitePage_withUsEndDiv {
+        padding-top: 15px !important;
+    }
+    .InvitePage_withUsSubDiv {
+        display: block !important;
+    }
+    .InvitePage_withUsSubDiv1 {
+        padding-top: 25px !important;
+        height: 120px !important;
+    }
+    .InvitePage_withUsSubDiv2 {
+        height: 130px !important;
+    }
+}
+@media screen and (max-width: 520px) {
+    .InvitePage_bannerMain, .InvitePage_bannerPart1, .InvitePage_bannerPart2, .InvitePage_bannerPart3 {
+        height: 140px !important;
+    }
+    .InvitePage_bannerComponet {
+        height: 140px !important;
+    }
+    .InvitePage_bannerMain {
+        width: 100% !important;
+        padding-top: 0px;
+    }
+    .InvitePage_bannerPart1 {
+        width: 100% !important;
+    }
+    .InvitePage_bannerPart2 {
+        width: 0px !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart3 {
+        width: 100% !important;
+    }
+    .InvitePage_bannerPart4 {
+        padding-left: 15px !important;
+        width: 230px !important;
+    }
+    .InvitePage_bannerTitle {
+        font-size: 20px !important;
+        padding-bottom: 10px !important;
+    }
+    .InvitePage_bannerText {
+        font-size: 13px !important;
+    }
+}
+@media screen and (max-width: 500px) {  
+    .InvitePage_bannerMain, .InvitePage_bannerPart1, .InvitePage_bannerPart2, .InvitePage_bannerPart3 {
+        height: 140px !important;
+    }
+    .InvitePage_bannerComponet {
+        height: 140px !important;
+        padding-top: 0px !important;
+    }
+    .InvitePage_bannerMain {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .InvitePage_bannerPart1 {
+        width: 100% !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart2 {
+        width: 0px !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart3 {
+        width: 100% !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart4 {
+        padding-left: 15px !important;
+        width: 220px !important;
+    }
+    .InvitePage_bannerTitle {
+        font-size: 19px !important;  
+        padding-bottom: 10px !important;      
+    }
+    .InvitePage_bannerText {
+        font-size: 13px !important;
+    }  
+    .InvitePage_profitTitle {
+        font-size: 27px !important;
+        text-align: center !important;
+    }
+    .InvitePage_profitText {
+        font-size: 13px !important;
+        text-align: justify !important;
+    }
+    .InvitePage_profitButton {
+        font-size: 13px !important;
+        margin: 20px auto 20px auto !important;
+    }
+    .InvitePage_appScreen {
+        margin: 20px auto 15px auto !important;
+    }    
+    .InvitePage_sendDiv {
+        padding: 8px 20px;
+        font-size: 15px !important;
+    }
+    .InvitePage_infographImg {
+        width: 210px !important;
+        height: 250px !important;
+    }
+    .InvitePage_infographText {
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width: 440px) { 
+    .InvitePage_bannerMain, .InvitePage_bannerPart1, .InvitePage_bannerPart2, .InvitePage_bannerPart3 {
+        height: 140px !important;
+    }
+    .InvitePage_bannerComponet {
+        height: 140px !important;
+        padding-top: 0px !important;
+    }
+    .InvitePage_bannerMain {
+        width: 100% !important;
+        margin: 0px !important;
+        padding-left: 0px !important;
+    }
+    .InvitePage_bannerPart1 {
+        width: 100% !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart2 {
+        width: 0px !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart3 {
+        width: 100% !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart4 {
+        padding-left: 10px !important;
+        width: 175px !important;
+    }
+    .InvitePage_bannerTitle {
+        font-size: 15px !important;  
+        padding-bottom: 5px !important;      
+    }
+    .InvitePage_bannerText {
+        font-size: 12px !important;
+    }  
+    .InvitePage_profitTitle {
+        font-size: 27px !important;
+        text-align: center !important;
+    }
+    .InvitePage_profitText {
+        font-size: 13px !important;
+        text-align: justify !important;
+    }
+    .InvitePage_profitButton {
+        font-size: 13px !important;
+        margin: 20px auto 20px auto !important;
+    }
+    .InvitePage_appScreen {
+        margin: 20px auto 15px auto !important;
+    }    
+    .InvitePage_sendDiv {
+        padding: 8px 20px;
+        font-size: 15px !important;
+    }
+    .InvitePage_infographImg {
+        width: 210px !important;
+        height: 250px !important;
+    }
+    .InvitePage_infographText {
+        width: 260px !important;
+    }
+}
+@media screen and (max-width: 390px) { 
+    .InvitePage_bannerMain, .InvitePage_bannerPart1, .InvitePage_bannerPart2, .InvitePage_bannerPart3 {
+        height: 120px !important;
+        padding-left: 0px !important;
+    }
+    .InvitePage_bannerComponet {
+        height: 120px !important;
+        padding-top: 0px !important;
+    }
+    .InvitePage_bannerMain {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .InvitePage_bannerPart1 {
+        width: 100% !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart2 {
+        width: 0px !important;
+        left: 0px !important;
+    }
+    .InvitePage_bannerPart3 {
+        width: fit-content !important;
+        left: -35px !important;
+    }
+    .InvitePage_bannerPart4 {
+        margin: auto !important;
+        padding-left: 10px !important;
+        width: 150px !important;
+    }
+    .InvitePage_bannerTitle {
+        font-size: 13px !important;  
+        padding-bottom: 5px !important;      
+    }
+    .InvitePage_bannerText {
+        font-size: 12px !important;
+    }  
+    .InvitePage_profitTitle {
+        padding-bottom: 0px !important;
+        height: 60px !important;
+        font-size: 25px !important;
+        text-align: center !important;
+    }
+    .InvitePage_profitText {
+        font-size: 13px !important;
+        text-align: justify !important;
+    }
+    .Footer_mainDiv {
+        margin-top: 50px !important;
+    }
+    .InvitePage_formDiv {
+        display: block !important;        
+    }    
+    .InvitePage_nameDiv {
+        width: auto !important;
+    }
+    .InvitePage_phoneDiv {
+        width: auto !important;
+    }
+    .InvitePage_formTitle {
+        margin-bottom: 40px !important;
+        font-size: 18px !important;
+    }
+}
